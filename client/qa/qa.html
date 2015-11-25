@@ -1,10 +1,10 @@
-<section class="col-xs-12 col-sm-10 col-sm-offset-1">
-  <input type="text" name="text" ng-model="text" ng-change="textChanged($event)" ng-model-options="{debounce: 1700}" class="question" placeholder="What do you want to know about the weather?" autofocus />
+<section class="col-xs-12 col-sm-offset-1">
+  <input type="text" name="text" ng-model="question" ng-change="textChanged($event)" ng-model-options="{debounce: 1500}" placeholder="What do you want to know about the weather?" autofocus />
 </section>
 
-<aside id="report" class="col-xs-12 col-sm-10 col-sm-offset-1" ng-show="text.length">
-  <h2>Resposta</h2>
+<aside class="col-xs-12 col-sm-10 col-sm-offset-1" ng-show="question.length">
+  <div class="center">
+    <img class="loader" ng-hide="answer.length" src="../watson.gif">
+  </div>
+  <p ng-show="answer.length">I'm {{confidence}} sure that you want to know about weather {{answer}}.</p>
 </aside>
-
-<!-- Loader -->
-<!-- <loader ng-show=""></loader> -->
