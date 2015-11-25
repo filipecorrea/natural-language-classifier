@@ -15,9 +15,11 @@
   "license": "MIT",
   "dependencies": {
     "express": "~4.0.0",
+    "body-parser": "^1.13.3",
     "jsonwebtoken": "^5.0.5",
     "q": "^1.4.1",
-    "request": "^2.61.0"
+    "request": "^2.61.0",
+    "watson-developer-cloud": "~0.9.11"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
