@@ -1,0 +1,50 @@
+section {
+
+  input {
+    display: block;
+  	width: 100%;
+    padding: 0;
+    border: none;
+  	resize: none;
+  	overflow: hidden;
+
+    &:focus {
+       outline: 0;
+    }
+
+    &.question {
+      // position: absolute;
+      // background-color: rgba(1,1,1,0);
+      // z-index: 1;
+    }
+  }
+
+  pre {
+    margin-top: 3em;
+  }
+}
+
+aside {
+  -webkit-transition:all ease-out 0.5s;
+  transition:all ease-out 0.5s;
+
+  &.ng-hide {
+    opacity: 0;
+  }
+
+  .progress-bar {
+    background-color: #B0C4DE;
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .hardSubtitle {
+    background-color: #FFE4B5;
+    padding: 1px 8px;
+  }
+
+  .veryHardSubtitle {
+    background-color: #F08080;
+    padding: 1px 8px;
+  }
+}
