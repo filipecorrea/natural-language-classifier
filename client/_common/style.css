@@ -6501,24 +6501,17 @@ section input {
   overflow: hidden; }
   section input:focus {
     outline: 0; }
-section pre {
-  margin-top: 3em; }
 
 aside {
+  font-size: 28px;
   -webkit-transition: all ease-out 0.5s;
   transition: all ease-out 0.5s; }
   aside.ng-hide {
     opacity: 0; }
-  aside .progress-bar {
-    background-color: #B0C4DE;
-    background-image: none;
-    box-shadow: none; }
-  aside .hardSubtitle {
-    background-color: #FFE4B5;
-    padding: 1px 8px; }
-  aside .veryHardSubtitle {
-    background-color: #F08080;
-    padding: 1px 8px; }
+  aside .center {
+    text-align: center; }
+  aside img.loader {
+    width: 3em; }
 
 p.copy {
   margin-top: 2em;

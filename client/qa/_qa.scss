@@ -11,20 +11,12 @@ section {
     &:focus {
        outline: 0;
     }
-
-    &.question {
-      // position: absolute;
-      // background-color: rgba(1,1,1,0);
-      // z-index: 1;
-    }
-  }
-
-  pre {
-    margin-top: 3em;
   }
 }
 
 aside {
+
+  font-size: 28px;
   -webkit-transition:all ease-out 0.5s;
   transition:all ease-out 0.5s;
 
@@ -32,19 +24,11 @@ aside {
     opacity: 0;
   }
 
-  .progress-bar {
-    background-color: #B0C4DE;
-    background-image: none;
-    box-shadow: none;
+  .center {
+    text-align: center;
   }
 
-  .hardSubtitle {
-    background-color: #FFE4B5;
-    padding: 1px 8px;
-  }
-
-  .veryHardSubtitle {
-    background-color: #F08080;
-    padding: 1px 8px;
+  img.loader {
+    width: 3em;
   }
 }
