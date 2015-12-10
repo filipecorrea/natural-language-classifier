@@ -19,8 +19,8 @@ exports.post  = function(req, res) {
   var credentials = extend({
     version: 'v1',
     url : 'https://gateway.watsonplatform.net/natural-language-classifier/api',
-    username : 'eb3fc11b-7efb-4d9b-a017-ff017555432e',
-    password : 'vVo5YNd0SFx1',
+    username : '<username>',
+    password : '<password>',
   }, bluemix.getServiceCreds('natural_language_classifier')); // VCAP_SERVICES
 
   // Create the service wrapper
